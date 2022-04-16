@@ -1,0 +1,5 @@
+<mod displayName="Mad Mannequins" unique="PSI_120_MadMannequins" description="Mad Mannequins adds several anatomical mannequins, all of which come devided into poseable parts and includes textureless versions of each. Currently there are 5 different types of mannequin: Human Male and Female, traditional Drawing Mannequin, Human Skeleton amd Horse." installerSystemVersion="1.0.1.0" hasCustomInstaller="true" dllsBuild="2.5.20">
+	<prerequisite game="GalacticAdventures">!PSI-120_MadMannequins_v2-3-1_core.package</prerequisite>
+	<component unique="CBCP_V4_Stacking" displayName="Stacking" description="Allows all parts to be stacked on to any other part, regardless of type." game="GalacticAdventures" defaultChecked="true">!PSI-120_MadMannequins_v2-3-1_!stacking.package</component>
+	<remove game="GalacticAdventures">*PSI-120_MadMannequins*</remove>
+</mod>
