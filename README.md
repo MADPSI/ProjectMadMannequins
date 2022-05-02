@@ -12,6 +12,8 @@ The mod features 4 distinct mannequins, from which the individual parts have bee
 
 This mod is still in development, and will receive irregular, but large updates. When making suggestions, please note that the theme of this mod is realistic anatomy, and suggestions that do not fit that theme will likely be ignored. There are also likely to be some bugs to fix, so please make certain to give detailed accounts and report of them.
 
+This mod must be installed via the Spore ModAPI Easy Installer, available as part of the Spore ModAPI Launcher Kit, available here: http://davoonline.com/sporemodder/rob55rod/ModAPI/Public/.
+
 ## Change Log
 #### 160420221851 (GitHub Release)
 - Uploaded mod to GitHub due to issues with Google Drive.
