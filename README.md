@@ -14,7 +14,24 @@ This mod is still in development, and will receive irregular, but large updates.
 
 This mod must be installed via the Spore ModAPI Easy Installer, available as part of the Spore ModAPI Launcher Kit, available here: http://davoonline.com/sporemodder/rob55rod/ModAPI/Public/.
 
+## Known Issues
+When reporting issues, please be as specific with your information as possible:
+* Indicate what distribution of the game you are running: Steam, EA App, GoG, Disc, etc., each of these may have relevant issues to consider.
+* Beware the "I am All" falacy: what happens to you does not necessarily mean it happens to everybody, there may well be something wrong with your specific setup.
+* Correlation vs Causation: a mod observed to be causing issues may not be the direct cause of a crash or given problem, rather it may just be triggering some other greater problem.
+
+### Increased likelyhood of crashes
+After repeated failures to replicate reported crashes, it can be assumed that such crashes are either rare, misattributed or are symptoms of a deeper problem. A few suggestions:
+* Be sparing with the number of parts used, as their model complexity is generally higher than what Spore expects.
+* In the case of many mods being installed at once, there may be unexpected conflicts. Overloading the game with dozens of mods is ill-advised.
+* Certain hardware may struggle to keep up with Spore's demands in general, even years later.
+* Install the [4GB Patch](https://ntcore.com/4gb-patch/) from NTCore (not applicable to Steam distributions of the game after October 2024, inquire at the Spore Modding Community Discord Server.)
+
+### Low resolution textures on paintable parts
+This is unfortunately a side effect of the system by which Spore generates its textures. Model textures are not created independently, but are sectors of one unified texture set for the entire Creature, which is then compressed. The HD Graphics Fix can help by increasing the maximum size this texture can be, but abusing the number of paintable parts will still cause final painting quality to dip with each one added. This is not currently fixable.
+
 ## Change Log
+
 #### 160420221851 (GitHub Release)
 - Uploaded mod to GitHub due to issues with Google Drive.
 - All parts now unlock at the start of Creature Stage.
